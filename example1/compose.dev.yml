@@ -1,0 +1,6 @@
+services:
+  app:
+    environment:
+      - DEBUG=true
+    ports:
+      - "3001:3000"
